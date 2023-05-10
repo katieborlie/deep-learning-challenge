@@ -34,9 +34,9 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
 ### Step 1: Preprocess the Data
 
-Using your knowledge of Pandas and scikit-learn’s `StandardScaler()`, you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+Using my knowledge of Pandas and scikit-learn’s `StandardScaler()`, I’ll need to preprocess the dataset. This step prepares me for Step 2, where I'll compile, train, and evaluate the neural network model.
 
-Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
+I'll start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
 
 1. Read in the `charity_data.csv` to a Pandas DataFrame, and be sure to identify the following in your dataset:
 
@@ -60,7 +60,7 @@ Start by uploading the starter file to Google Colab, then using the information 
 
 ### Step 2: Compile, Train, and Evaluate the Model
 
-Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
+Using my knowledge of TensorFlow, I’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. I’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once I’ve completed that step, I’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 1, Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
 
@@ -84,7 +84,7 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
 ### Step 3: Optimize the Model
 
-Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+Using my knowledge of TensorFlow, I'll optimize your model to achieve a target predictive accuracy higher than 75%.
 
 Use any or all of the following methods to optimize your model:
 
@@ -116,11 +116,7 @@ Use any or all of the following methods to optimize your model:
 
 5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
-### Step 4: Write a Report on the Neural Network Model
-
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
-
-The report should contain the following:
+### Step 4: Written Report on the Neural Network Model
 
 #### Overview of the analysis: (Explain the purpose of this analysis)
 
