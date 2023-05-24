@@ -7,34 +7,6 @@
 
 <img width="100%" alt="Screenshot 2023-05-10 at 4 19 15 PM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/2afa0c68-1517-48ce-8b9a-a9b1335c236e">
 
-## Background
-
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With my knowledge of machine learning and neural networks, I’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
-
-From Alphabet Soup’s business team, I have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
-
-  * **EIN** and **NAME**—Identification columns
-
-  * **APPLICATION_TYPE**—Alphabet Soup application type
- 
-  * **AFFILIATION**—Affiliated sector of industry
-
-  * **CLASSIFICATION**—Government organization classification
-
-  * **USE_CASE**—Use case for funding
-
-  * **ORGANIZATION**—Organization type
-
-  * **STATUS**—Active status
-
-  * **INCOME_AMT**—Income classification
-
-  * **SPECIAL_CONSIDERATIONS**—Special considerations for application
-
-  * **ASK_AMT**—Funding amount requested
-
-  * **IS_SUCCESSFUL**—Was the money used effectively
-
 ## Instructions
 
 ### Step 1: Preprocess the Data
@@ -185,15 +157,28 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
     3. What variable(s) should be removed from the input data because they are neither targets nor features?
 
-    * 
+    * I've decided that variables `EIN` and `NAME` should be removed from the input data becuase they are neither targets nor relevant features of our analysis.
+
+
+<img width="100%" alt="Screenshot 2023-05-24 at 1 18 21 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/28a37e77-277d-4af7-852c-7458d711a82c">
+
 
   * **Compiling, Training, and Evaluating the Model**
 
-    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    * Were you able to achieve the target model performance?
+    * For my neural network model, I selected three hidden layers with neuron amounts of 20, 26, and 3. The activation function I chose for the first two hidden layers were ReLU, in order to improve performance and explore non-linearity. For the third hidden layer, I used sigmoid as my activation function since this is a binary classification task and sigmoid is the most convenient for this case. Lastly, for the output layer, I used sigmoid activation because I am dealing with predictability and need to be sure that my output is between 0 and 1.
 
-    * What steps did you take in your attempts to increase model performance?
+<img width="100%" alt="Screenshot 2023-05-24 at 1 25 25 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/56c35d96-89bf-46b8-bc45-4ac694257a8f">
+
+    2. Were you able to achieve the target model performance?
+
+    * T
+
+
+    3. What steps did you take in your attempts to increase model performance?
+
+    * T
 
 #### Summary: (Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.)
     + insert
