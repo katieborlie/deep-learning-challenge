@@ -123,17 +123,69 @@ Use any or all of the following methods to optimize your model:
 
 ### Step 4: Written Report on the Neural Network Model
 
-#### Overview of the analysis: (Explain the purpose of this analysis)
+#### Overview of the analysis: 
 
-#### Results: (Using bulleted lists and images to support your answers, address the following questions:)
+The purpose of this analysis is to help the nonprofit foundation Alphabet Soup to select applicants for funding with the best chance of success. I’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+From Alphabet Soup’s business team, I have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+
+  * **EIN** and **NAME**—Identification columns
+
+  * **APPLICATION_TYPE**—Alphabet Soup application type
+ 
+  * **AFFILIATION**—Affiliated sector of industry
+
+  * **CLASSIFICATION**—Government organization classification
+
+  * **USE_CASE**—Use case for funding
+
+  * **ORGANIZATION**—Organization type
+
+  * **STATUS**—Active status
+
+  * **INCOME_AMT**—Income classification
+
+  * **SPECIAL_CONSIDERATIONS**—Special considerations for application
+
+  * **ASK_AMT**—Funding amount requested
+
+  * **IS_SUCCESSFUL**—Was the money used effectively
+
+#### Results: 
 
   * **Data Preprocessing**
 
-    * What variable(s) are the target(s) for your model?
+    1. What variable(s) are the target(s) for your model?
 
-    * What variable(s) are the features for your model?
+    * The target variable for my model is `IS_SUCCESSFUL` since we are trying to select applicants with the best chance of success. This variable is a classification of the binary outcome variable regarding success in charity donations/if money was used effectively.
 
-    * What variable(s) should be removed from the input data because they are neither targets nor features?
+    2. What variable(s) are the features for your model?
+
+    * The variables that are features in my model are all of the other columns besides `IS_SUCCESSFUL`, including:
+
+     * **EIN** and **NAME**—Identification columns
+
+     * **APPLICATION_TYPE**—Alphabet Soup application type
+ 
+     * **AFFILIATION**—Affiliated sector of industry
+
+     * **CLASSIFICATION**—Government organization classification
+
+     * **USE_CASE**—Use case for funding
+
+     * **ORGANIZATION**—Organization type
+  
+     * **STATUS**—Active status
+
+     * **INCOME_AMT**—Income classification
+
+     * **SPECIAL_CONSIDERATIONS**—Special considerations for application
+
+     * **ASK_AMT**—Funding amount requested
+
+    3. What variable(s) should be removed from the input data because they are neither targets nor features?
+
+    * 
 
   * **Compiling, Training, and Evaluating the Model**
 
