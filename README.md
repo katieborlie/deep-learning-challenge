@@ -125,8 +125,7 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
 #### Results: 
 
-  # **Data Preprocessing**
-
+ **Data Preprocessing**
    1. What variable(s) are the target(s) for your model?
 
    * The target variable for my model is `IS_SUCCESSFUL` since we are trying to select applicants with the best chance of success. This variable is a classification of the binary outcome variable regarding success in charity donations/if money was used effectively.
@@ -163,7 +162,7 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 <img width="100%" alt="Screenshot 2023-05-24 at 1 18 21 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/28a37e77-277d-4af7-852c-7458d711a82c">
 
 
-  # **Compiling, Training, and Evaluating the Model**
+ **Compiling, Training, and Evaluating the Model**
 
    1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
@@ -191,7 +190,7 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 <img width="1011" alt="Screenshot 2023-05-24 at 1 59 29 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/ecd112de-c740-48cf-b9ab-9b7499ae48c9">
 
 
-  # Summary: 
+ **Summary:** 
    
    * Overall, my deep learning model using TensorFlow and Keras was able to achieve a predictive accuracy of 73% in classifying the success of organizations funded by Alphabet Soup based on their features. The model underwent several optimization attempts, including dropping columns, binning categorical variables, adding hidden layers and neurons, and trying different activation functions, among other adjustments. 
      If I were to recommend a different model to solve this classification problem, I would suggest a Support Vector Machine (SVM) which deals with numerical and categorical variables as well as imbalanced datasets. These types of models are used for solving binary classification problems and could potentially increase the accuracy without resorting to various optimization techniques. It is always worth comparing models to get the highest level of accuracy.
