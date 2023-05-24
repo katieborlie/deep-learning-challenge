@@ -1,6 +1,6 @@
 # Module 21 Challenge: deep-learning-challenge 🔠 
 
-#### Google Collab Links:
+#### Google Colab Links:
 #### #1: [Starter_Code.ipynb](https://colab.research.google.com/drive/1ak_AR3BpZQPheIT4QUpmHujZgXfzzvT4?usp=sharing)
 
 #### #2: [AlphabetSoupCharity_Optimization.ipynb](https://colab.research.google.com/drive/1FGHRQKViuSwjv4Bt9QKWXPX4eKoeeera?usp=sharing) 
