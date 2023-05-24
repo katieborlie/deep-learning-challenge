@@ -1,9 +1,9 @@
 # Module 21 Challenge: deep-learning-challenge 🔠 
 
 #### Google Collab Links:
-#### #1: https://colab.research.google.com/drive/1ak_AR3BpZQPheIT4QUpmHujZgXfzzvT4?usp=sharing
+#### #1: [Starter_Code.ipynb](https://colab.research.google.com/drive/1ak_AR3BpZQPheIT4QUpmHujZgXfzzvT4?usp=sharing)
 
-#### #2: https://colab.research.google.com/drive/1FGHRQKViuSwjv4Bt9QKWXPX4eKoeeera?usp=sharing 
+#### #2: [AlphabetSoupCharity_Optimization.ipynb](https://colab.research.google.com/drive/1FGHRQKViuSwjv4Bt9QKWXPX4eKoeeera?usp=sharing) 
 
 <img width="100%" alt="Screenshot 2023-05-10 at 4 19 15 PM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/2afa0c68-1517-48ce-8b9a-a9b1335c236e">
 
