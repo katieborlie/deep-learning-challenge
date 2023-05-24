@@ -167,18 +167,32 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
    1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-   * For my neural network model, I selected three hidden layers with neuron amounts of 20, 26, and 3 because this grouping seemed to be the most accurate in determining loss (I tried running a few different iterations with varying combinations). The activation function I chose for the first two hidden layers were ReLU, in order to improve performance and explore non-linearity. For the third hidden layer, I used sigmoid as my activation function since this is a binary classification task and sigmoid is the most convenient for this case. Lastly, for the output layer, I used sigmoid activation because I am dealing with predictability and need to be sure that my output is between 0 and 1.
+   * For my neural network model, I selected three hidden layers with neuron amounts of 20, 26, and 3 because this grouping seemed to be pretty accurate in determining loss (I tried running a few different iterations with varying combinations). The activation function I chose for the first two hidden layers were ReLU, in order to improve performance and explore non-linearity. For the third hidden layer, I used sigmoid as my activation function since this is a binary classification task and sigmoid is the most convenient for this case. Lastly, for the output layer, I used sigmoid activation because I am dealing with predictability and need to be sure that my output is between 0 and 1.
 
-<img width="100%" alt="Screenshot 2023-05-24 at 1 25 25 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/56c35d96-89bf-46b8-bc45-4ac694257a8f">
+
+<img width="100%" alt="Screenshot 2023-05-24 at 1 43 01 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/e0758561-d974-48f7-9282-4b8ff5817d16">
+
 
    2. Were you able to achieve the target model performance?
 
-   * T
+   * According to my analysis, I was able to achieve an accuracy score of 73%. While I would've liked to see numbers above 75%, I think this is still a useful deep neural network model for Alphabet Soup to utilize when selecting applicants with the best chances of success.
+
+
+<img width="1025" alt="Screenshot 2023-05-24 at 1 44 21 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/9fc80491-66dc-4e31-ac45-e990b8e3f790">
 
 
    3. What steps did you take in your attempts to increase model performance?
 
-   * T
+   * To increase model performance, I began by dropping the `EIN` and `NAME` variables to eliminate any variables that could decrease my accuracy. I also chose a cutoff value and created a list of application types to be replaced (`application_types_to_replace`) using `value_counts` so that any application type that had less than 500 occurrences was replaced with "Other". Likewise, a cutoff value was chosen for the `CLASSIFICATION` column and any classification with fewer than 1000 occurrences was replaced with "Other". The binning was checked to ensure that it was successful.
+
+   
+<img width="1010" alt="Screenshot 2023-05-24 at 1 54 40 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/46b6f801-2a2e-492f-86a2-2dc4ae2eeec7">
+
+<img width="1011" alt="Screenshot 2023-05-24 at 1 59 29 AM" src="https://github.com/katieborlie/deep-learning-challenge/assets/119274891/ecd112de-c740-48cf-b9ab-9b7499ae48c9">
+
 
 #### Summary: (Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.)
-    + insert
+   
+   * Overall, my deep learning model using TensorFlow and Keras was able to achieve a predictive accuracy of 73% in classifying the success of organizations funded by Alphabet Soup based on their features. The model underwent several optimization attempts, including dropping columns, binning categorical variables, adding hidden layers and neurons, and trying different activation functions, among other adjustments. 
+
+    If I were to recommend a different model to solve this classification problem, I would suggest a Support Vector Machine (SVM) which deals with numerical and categorical variables as well as imbalanced datasets. These types of models are used for solving binary classification problems and could potentially increase the accuracy without resorting to various optimization techniques. It is always worth comparing models to get the highest level of accuracy.
